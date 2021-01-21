@@ -4,6 +4,7 @@
 *{
   font-family: 'Potta One', cursive;
   text-align: center;
+  box-sizing: border-box;
 }
 
 body{
@@ -19,10 +20,22 @@ h1{
 
 /* corpo del gioco */
 main{
+  display: inline-block;
   width: 1300px;
   height: 1200px;
+  padding: 0;
 }
 
 div{
-  
+  display: inline-block;
+  width: 300px;
+  height: 350px;
+  background: black;
+  border-radius: 15px;
+  }
+
+  /* singole carte */
+
+main .balloon:nth-last-child(7){
+  background-color: white;
 }
