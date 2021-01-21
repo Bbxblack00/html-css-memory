@@ -1,0 +1,28 @@
+/* abbelimento generale */
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+*{
+  font-family: 'Potta One', cursive;
+  text-align: center;
+}
+
+body{
+  background: rgb(173, 216, 230);
+}
+
+/* titolo */
+h1{
+  color: white;
+  font-size: 65px;
+}
+
+
+/* corpo del gioco */
+main{
+  width: 1300px;
+  height: 1200px;
+}
+
+div{
+  
+}
