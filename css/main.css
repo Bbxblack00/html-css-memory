@@ -3,7 +3,6 @@
 
 *{
   font-family: 'Potta One', cursive;
-  /**/
   box-sizing: border-box;
 }
 
@@ -17,8 +16,6 @@ h1{
   font-size: 65px;
   text-align: center;
 }
-
-/*  */
 
 section{
   height: 200px;
@@ -37,8 +34,9 @@ div{
   position: relative;
 }
 
-.card.balloon{
-  background: white;
+#balloon{
+  /* background-color: white; */
+  background-image: url(../img/air-balloon.png) center;
 }
 
 img{
@@ -49,13 +47,6 @@ img{
   right: 0;
   width: 150px;
   visibility: hidden;
-}
-img < .card.balloon{
-  visibility: visible;
-}
-
-span{
-
 }
 
 /* fine pagina */
